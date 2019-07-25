@@ -1,0 +1,213 @@
+.navbar-brand {
+  font-family: "Cookie", cursive;
+  color: rgb(241, 173, 46) !important;
+  font-size: 40px;
+  text-shadow: 0 1px 0 rgb(212, 212, 212), 0 2px 0 #cfcfcf,
+    0 3px 0 rgb(194, 194, 194), 0 4px 0 #bdbdbd, 0 5px 0 rgb(175, 175, 175),
+    0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+  font-family: "Gothic A1", sans-serif;
+}
+
+input {
+  font-family: "Gothic A1", sans-serif;
+}
+
+img {
+  width: 1470px;
+  height: 550px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  border-radius: 15px;
+}
+
+h5 {
+  color: black;
+  font-size: 30px;
+  font-family: "Gothic A1", sans-serif;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.caption {
+  margin-top: 3%;
+  color: black;
+  font-size: 25px;
+  font-family: "Bitter", serif;
+}
+
+.card-header {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Staatliches", cursive;
+  background-color: rgb(255, 255, 255);
+  color: rgb(235, 156, 10);
+}
+
+.card-body {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: "Gothic A1", sans-serif;
+  background-color: white;
+}
+
+#potatoes {
+  margin-left: 4%;
+}
+
+#chicken {
+  margin-left: 4%;
+}
+
+/* addRecipe Page */
+.col-md-6 {
+  margin-left: 265px;
+}
+
+#cms {
+  background: rgb(252, 247, 114);
+  background: radial-gradient(
+    circle,
+    rgba(252, 247, 114, 0.520045518207283) 0%,
+    rgba(252, 160, 70, 0.5956757703081232) 100%
+  );
+  border: 8px ridge orange;
+  border-radius: 5px;
+  width: 600px;
+  padding: 50px;
+  margin: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+label {
+  font-family: "Gothic A1", sans-serif;
+}
+
+.myButton {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fce2c1;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fce2c1;
+  box-shadow: inset 0px 1px 0px 0px #fce2c1;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #ffc477),
+    color-stop(1, #fb9e25)
+  );
+  background: -moz-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+  background: -webkit-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+  background: -o-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+  background: -ms-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+  background: linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25',GradientType=0);
+  background-color: #ffc477;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #eeb44f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #cc9f52;
+}
+.myButton:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #fb9e25),
+    color-stop(1, #ffc477)
+  );
+  background: -moz-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+  background: -webkit-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+  background: -o-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+  background: -ms-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+  background: linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477',GradientType=0);
+  background-color: #fb9e25;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* user Page */
+
+h1 {
+  font-family: "Staatliches", cursive;
+  color: black;
+}
+
+.table.table-striped {
+  font-family: "Gothic A1", sans-serif;
+}
+
+td {
+  border-color: black;
+  background-color: rgb(255, 213, 140);
+}
+
+/* addedRecipes Page*/
+
+.scroll-box {
+  overflow-y: scroll;
+  height: 450px;
+  padding: 1rem;
+  margin-bottom: 100px;
+}
+
+.card-body.recipeAdd {
+  white-space: pre-line;
+}
+
+.tryAgain {
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  color: rgb(160, 15, 15);
+}
+
+#recipeAdd {
+  background: rgb(252, 247, 114);
+  background: radial-gradient(
+    circle,
+    rgba(252, 247, 114, 0.520045518207283) 0%,
+    rgba(252, 160, 70, 0.5956757703081232) 100%
+  );
+  border: 8px inset orange;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 10px;
+}
+
+.addCard {
+  margin-bottom: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  background-color: #f0bd6c;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+
+.recipeTitle {
+  font-family: "Bitter", serif;
+  font-size: 22px;
+  text-decoration: underline;
+}

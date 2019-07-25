@@ -1,0 +1,15 @@
+.navbar-brand {
+    font-family: "Cookie", cursive;
+    color: rgb(241, 173, 46) !important;
+    font-size: 40px;
+    text-shadow: 0 1px 0 rgb(212, 212, 212), 0 2px 0 #cfcfcf,
+      0 3px 0 rgb(194, 194, 194), 0 4px 0 #bdbdbd, 0 5px 0 rgb(175, 175, 175),
+      0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+      0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+      0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+      0 20px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .nav-link {
+    font-family: "Gothic A1", sans-serif;
+  }
